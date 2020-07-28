@@ -1,0 +1,49 @@
+
+
+<body style="padding-bottom:20px;background-image: url('https://images.unsplash.com/photo-1570857502809-08184874388e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80');">
+<!-- main -->
+<div class="main-w3layouts wrapper">
+  <h1 class="text-danger">SignUp Form</h1>
+  <div class="main-agileinfo">
+    <div class="agileits-top">
+      <form action="#" method="post">
+        <input [(ngModel)]="Name" [ngModelOptions]="{standalone: true}" class="text" style="color: white" type="text" name="Name" placeholder="Name" required="true">
+        <br/>
+        <input [(ngModel)]="pseudo" [ngModelOptions]="{standalone: true}" class="text" style="color: white" type="text" name="Pseudo" placeholder="pseudo" required="true">
+        <br/>
+        <input [(ngModel)]="password" [ngModelOptions]="{standalone: true}" class="text" type="password" style="color: white"  name="password" placeholder="Password" required="true">
+        <input [(ngModel)]="confirmePassword" [ngModelOptions]="{standalone: true}" class="text w3lpass" style="color: white" type="password" name="password" placeholder="Confirm Password" required="true">
+
+        <input [(ngModel)]="Ville" [ngModelOptions]="{standalone: true}" class="text"  type="text" style="color: white"  name="Ville" placeholder="Ville" required="true">
+        
+        <input [(ngModel)]="Num" [ngModelOptions]="{standalone: true}" class="text email" type="text" name="Num" style="color: white"  placeholder="Tel" required="true">
+        <div class="wthree-text">
+
+          <div class="clear"> </div>
+        </div>
+        <div class=" text-center">
+          <button (click)="signup()" id="singlebutton" name="singlebutton" class="btn btn-danger">SignUp</button>
+        </div>
+
+
+      </form>
+
+    </div>
+  </div>
+  <!-- copyright -->
+
+  <!-- //copyright -->
+  <ul class="colorlib-bubbles">
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ul>
+</div>
+</body>
